@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".nasabah.CreateNasabahActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tambah_data_nasabah"
+        android:textSize="35sp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nama_nasabah"
+                android:textSize="12sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nama_nasabah"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"
+                android:inputType="text"
+                android:id="@+id/editNas"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tempat_lahir"
+                android:textSize="12sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tempat_lahir"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:id="@+id/editTmptLahir"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tgl_lahir"
+                android:textSize="12sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tgl_lahir"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:id="@+id/editTglLahir"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alamat"
+                android:textSize="12sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/alamat"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:id="@+id/editAlamat"
+                android:layout_marginBottom="10dp"
+                android:maxLines="5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_hp"
+                android:textSize="12sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/no_hp"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:id="@+id/editNoHP"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gaji"
+                android:textSize="12sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gaji_hint"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:id="@+id/editGaji"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pengeluaran"
+                android:textSize="12sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gaji_hint"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:id="@+id/editPeng"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bpkb"
+                android:textSize="12sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/bpkb_hint"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:id="@+id/editBpkb"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/input_data"
+                android:textSize="16sp"
+                android:id="@+id/btnAdd"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
